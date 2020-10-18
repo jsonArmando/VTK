@@ -6,7 +6,7 @@ api_add='https://api.openweathermap.org/data/2.5/weather?lat=60.842946&lon=10.40
 json_data = req.get(api_add).json()
 
 try:
-    conn = MongoClient("mongodb+srv://usr_json:881127Son@cluster0.exca8.mongodb.net/dataDB?retryWrites=true&w=majority")
+    conn = MongoClient("")
     print('Connected succesfully')
 except ValueError:
     print('Cloud not connect to MongoDB')
