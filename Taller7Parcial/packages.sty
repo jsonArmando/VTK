@@ -1,0 +1,43 @@
+% CC BY 4.0
+
+\usepackage[utf8]{inputenc} %(only for the pdftex engine)
+%\RequirePackage[no-math]{fontspec}[2017/03/31] %(only for the luatex or the xetex engine)
+\usepackage[small]{dgruyter}
+\usepackage{microtype}
+\usepackage{csquotes}
+
+% use biber to compile bib-file
+\usepackage[backend=biber,
+            bibstyle=biblatex-sp-unified,
+            citestyle=sp-authoryear-comp,
+            maxcitenames=3,
+            maxbibnames=99,
+            natbib]{biblatex}
+
+% For use of 'and' in text
+\renewcommand*{\finalnamedelim}{\addspace\bibstring{and}\space}
+\renewcommand*{\finallistdelim}{\addspace\bibstring{and}\space}
+
+% sets final name delimiter in bibliography to '&'
+\AtBeginBibliography{%
+  \renewcommand*{\finalnamedelim}{\addspace\&\space}%
+}
+
+% semicolons between multiple references
+\renewcommand*{\multicitedelim}{\addsemicolon\space}
+
+ % Format date of access for URLs; please use year-month-day format in bib-file
+ \renewbibmacro*{url+urldate}{%
+  \printfield{url}%
+  \iffieldundef{urlyear}%
+    {}%
+    {\setunit*{\addspace}%
+    \printtext[parens]{Accessed \mkbibdateunified{urlyear}{urlmonth}{urlday}}}%
+  }
+
+% feel free to use other packages for examples
+\usepackage{gb4e}
+% first line in examples in italics
+\let\eachwordone=\itshape
+% remove indentation in examples
+\exewidth{(\thexnumi)}

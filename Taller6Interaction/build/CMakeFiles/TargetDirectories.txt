@@ -1,0 +1,3 @@
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/Taller6Interaction/build/CMakeFiles/rebuild_cache.dir
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/Taller6Interaction/build/CMakeFiles/edit_cache.dir
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/Taller6Interaction/build/CMakeFiles/Test.dir

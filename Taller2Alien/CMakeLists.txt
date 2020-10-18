@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.6)
+project(Test)
+set(VTK_DIR "/home/json/Descargas/bin/")
+find_package(VTK REQUIRED)
+include(${VTK_USE_FILE})
+add_executable(Test Test.cxx)
+target_link_libraries(Test ${VTK_LIBRARIES})

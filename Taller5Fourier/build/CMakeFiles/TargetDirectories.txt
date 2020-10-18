@@ -1,0 +1,3 @@
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/Taller5Fourier/build/CMakeFiles/rebuild_cache.dir
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/Taller5Fourier/build/CMakeFiles/edit_cache.dir
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/Taller5Fourier/build/CMakeFiles/Test.dir

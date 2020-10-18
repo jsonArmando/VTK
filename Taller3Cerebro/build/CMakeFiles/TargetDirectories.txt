@@ -1,0 +1,3 @@
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/TallerCerebro/build/CMakeFiles/rebuild_cache.dir
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/TallerCerebro/build/CMakeFiles/edit_cache.dir
+/home/json/Documentos/Maestria/Visualizacion/TallerEntregado/TallerCerebro/build/CMakeFiles/Test.dir
