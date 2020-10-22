@@ -2,7 +2,7 @@
 while true
 do
 echo "Wait for 5 seconds"
-python recoleccionDatos.py
+python main.py
 sleep 5
 echo "Completed"
 done
